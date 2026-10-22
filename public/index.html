@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — SIM Proyek Dapur Produksi UMKM</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body class="login-body">
+  <div class="login-card">
+    <div class="login-logo">
+      <div class="logo-badge">🍽</div>
+      <h1>Sistem Informasi Manajemen Proyek</h1>
+      <p>Pendirian Dapur Produksi UMKM</p>
+    </div>
+    <form id="login-form">
+      <label for="identifier">Username atau Email</label>
+      <input type="text" id="identifier" name="identifier" placeholder="contoh: admin" required />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="password" required />
+      <div id="login-error" class="alert error hidden"></div>
+      <button type="submit" class="btn primary w-full" id="login-btn">Login</button>
+    </form>
+    <div class="demo-info">
+      <details>
+        <summary>Akun demo untuk pengujian</summary>
+        <ul>
+          <li><b>Admin</b> — username <code>admin</code>, password <code>admin123</code></li>
+          <li><b>Manajer Proyek</b> — username <code>manajer</code>, password <code>manajer123</code></li>
+          <li><b>Anggota Tim</b> — username <code>anggota</code>, password <code>anggota123</code></li>
+        </ul>
+      </details>
+    </div>
+  </div>
+  <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "sim-proyek-dapur-umkm",
+  "version": "1.0.0",
+  "description": "Sistem Informasi Manajemen Proyek Pendirian Dapur Produksi UMKM",
+  "main": "src/server.js",
+  "scripts": {
+    "seed": "node src/seed.js --reset",
+    "start": "node src/server.js",
+    "verify": "node scripts/verify.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0"
+  }
+}

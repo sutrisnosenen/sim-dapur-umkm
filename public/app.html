@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIM Proyek Dapur Produksi UMKM</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">
+        <span class="logo-badge small">🍽</span>
+        <div>
+          <div class="app-title">SIM Dapur UMKM</div>
+          <div class="app-sub">Manajemen Proyek</div>
+        </div>
+      </div>
+      <nav class="sidebar-nav" id="nav"></nav>
+      <div class="sidebar-foot">
+        <div id="user-chip" class="user-chip"></div>
+        <button id="logout-btn" class="btn subtle w-full">Logout</button>
+      </div>
+    </aside>
+    <div class="backdrop" id="backdrop"></div>
+    <main class="main">
+      <header class="topbar">
+        <button id="menu-btn" class="btn subtle only-mobile">☰</button>
+        <div id="page-title" class="topbar-title">Dashboard</div>
+        <div id="topbar-right"></div>
+      </header>
+      <div class="content" id="content">
+        <div class="loading-box"><span class="spinner"></span> Memuat…</div>
+      </div>
+      <div id="toast-area" class="toast-area"></div>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <script src="/js/api.js"></script>
+  <script src="/js/views.project.js"></script>
+  <script src="/js/views.visual.js"></script>
+  <script src="/js/views.more.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
