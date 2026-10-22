@@ -22,6 +22,16 @@ Sistem Informasi Manajemen Proyek untuk persiapan pendirian dapur produksi UMKM.
   - Penanda **Hari Ini** & **Rencana Selesai**, shading akhir pekan, garis batas bulan.
   - Scroll rapi: tabel kiri sticky, header sticky, baris selalu sejajar.
 
+## Tampilan Aplikasi
+
+### Tampilan 1 — Halaman Gantt Chart (skala harian)
+
+![Tampilan 1 Gantt Chart](assets/gantt-tampilan1.png)
+
+### Tampilan 2 — Halaman Gantt Chart (tabel tugas & timeline)
+
+![Tampilan 2 Gantt Chart](assets/gantt-tampilan2.png)
+
 ## Persyaratan
 
 - Node.js 18+
