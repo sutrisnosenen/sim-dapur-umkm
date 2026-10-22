@@ -24,7 +24,7 @@ Sistem Informasi Manajemen Proyek untuk persiapan pendirian dapur produksi UMKM.
 
 ## Tampilan Aplikasi
 
-### Tampilan 1 — Halaman Gantt Chart (skala harian)
+### Tampilan 1 — Halaman Dashboard Admin
 
 ![Tampilan 1 Gantt Chart](assets/gantt-tampilan1.png)
 
